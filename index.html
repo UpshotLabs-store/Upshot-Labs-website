@@ -1,53 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UPSHOTLABS</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background: #000;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UPSHØT LABS</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
 
-        img {
-            max-width: 100%;
-            height: auto;
-        }
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      border-bottom: 1px solid #222;
+      letter-spacing: 3px;
+    }
 
-        .button {
-            margin-top: 30px;
-        }
+    .hero {
+      height: 70vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
 
-        .button a {
-            background: #C6A96B;
-            color: #000;
-            text-decoration: none;
-            padding: 15px 30px;
-            font-size: 18px;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
+    .hero h1 {
+      font-size: 40px;
+      margin: 0;
+    }
 
-        .button a:hover {
-            background: #A58A56;
-        }
-    </style>
+    .hero p {
+      color: #aaa;
+      max-width: 400px;
+      margin-top: 20px;
+    }
+
+    .btn {
+      margin-top: 25px;
+      padding: 12px 25px;
+      background: white;
+      color: black;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .product {
+      background: #111;
+      padding: 15px;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #222;
+      color: #777;
+    }
+  </style>
 </head>
+
 <body>
 
-    <!-- Insert your image here using your GitHub image link -->
-    <img src="file_000000004a3471f5bcecbcf6d615fc0b.jpg" alt="UPSHOTLABS Poster">
+<header>
+  <div>UPSHØT LABS</div>
+  <div>SHOP | ABOUT | CONTACT</div>
+</header>
 
-    <div class="button">
-        <a href="https://wa.me/27729818587" target="_blank">Order via WhatsApp</a>
-    </div>
+<section class="hero">
+  <h1>SILENT WORK.</h1>
+  <h1>VISIBLE RESULTS.</h1>
+  <p>Luxury streetwear brand built on discipline, identity, and precision.</p>
+
+  <a class="btn" href="https://wa.me/27729818587" target="_blank">
+    ORDER VIA WHATSAPP
+  </a>
+</section>
+
+<section class="products">
+
+  <div class="product">
+    <h3>AURORA HOODIE</h3>
+    <p>R899</p>
+  </div>
+
+  <div class="product">
+    <h3>NOIR TEE</h3>
+    <p>R499</p>
+  </div>
+
+  <div class="product">
+    <h3>TRACK PANTS</h3>
+    <p>R699</p>
+  </div>
+
+</section>
+
+<footer>
+  Contact: +27 72 981 8587 | UPSHØT LABS © 2026
+</footer>
 
 </body>
 </html>
